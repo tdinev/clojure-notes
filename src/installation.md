@@ -31,10 +31,26 @@ Copy the modules sample:
 cp ~/.emacs.d/sample/prelude-modules ~/.emacs.d/
 ```
 
-Activate the Clojure module by removing the `;;` from the line containing `(require 'prelude-clojure)`:
+Activate the Clojure module by removing the `;;` from the line containing `(require 'prelude-clojure)`.
+The section will look as follows:
 
 ```elisp
+;;; Programming languages support
+;;
+;; Modules for a few very common programming languages
+;; are enabled by default.
 
+(require 'prelude-c)
+(require 'prelude-clojure)
+;; (require 'prelude-coffee)
+;; (require 'prelude-common-lisp)
 ```
 
-Open Emacs to 
+Open Emacs to
+
+If Emacs displays a lot of warnings in a separate buffer, you can mute them by inserting the following in `~/.emacs.d/init.el`:
+
+```elisp
+;; Do not display warnings
+(setq warning-minimum-level :error)
+```
