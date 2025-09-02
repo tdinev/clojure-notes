@@ -8,6 +8,7 @@ Add the following packages to your NixOS configuration file (residing usually in
 clojure
 emacs
 git
+git-credential-oauth
 ```
 
 ## Prelude
