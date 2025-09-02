@@ -47,9 +47,11 @@ The section will look as follows:
 ;; (require 'prelude-common-lisp)
 ```
 
-Open Emacs to
+Open Emacs to trigger the installation of all packages required by Prelude.
+This may take up to a minute, depending on your connection speed.
+The setup process will have ended when your minibuffer display the message *Prelude is ready to do thy bidding, master ...*.
 
-If Emacs displays a lot of warnings in a separate buffer, you can mute them by inserting the following in `~/.emacs.d/init.el`:
+If Emacs displays a lot of warnings in a separate buffer at the lower half of the window, you can mute them by inserting the following in `~/.emacs.d/init.el`:
 
 ```elisp
 ;; Do not display warnings
