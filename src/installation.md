@@ -35,7 +35,7 @@ cp ~/.emacs.d/sample/prelude-modules ~/.emacs.d/
 Activate the Clojure module by removing the `;;` from the line containing `(require 'prelude-clojure)`.
 The section will look as follows:
 
-```elisp
+```clojure
 ;;; Programming languages support
 ;;
 ;; Modules for a few very common programming languages
@@ -53,7 +53,7 @@ The setup process will have ended when your minibuffer displays the message *Pre
 
 If Emacs displays a lot of warnings in a separate buffer at the lower half of the window, you can mute them by inserting the following in `~/.emacs.d/init.el`:
 
-```elisp
+```clojure
 ;; Do not display warnings
 (setq warning-minimum-level :error)
 ```
