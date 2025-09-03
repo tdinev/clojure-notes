@@ -21,15 +21,15 @@ The output should be the current time with nanosecond precision, e.g.,
 "2025-09-02T20:44:42.873013064"
 ```
 
-Exit the REPL by pressing `CTRL-D`.
+Exit the REPL using `CTRL-D`.
 
 ## Pulling in a dependency
 
-Create a file `deps.edn` and paste the following:
+In a new working directory, create a file `deps.edn` and paste the following:
 
 ```clojure
 {:deps
- {clojure.java-time/clojure.java-time {:mvn/version "1.1.0"}}}
+  {clojure.java-time/clojure.java-time {:mvn/version "1.1.0"}}}
 ```
 
 Open the REPL again and issue:
