@@ -6,3 +6,4 @@ title = "Clojure notes"
 
 [output.html]
 smart-punctuation = true
+preferred-dark-theme = "ayu"
