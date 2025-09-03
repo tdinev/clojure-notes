@@ -3,3 +3,6 @@ authors = ["Todor Dinev"]
 language = "en"
 src = "src"
 title = "Clojure notes"
+
+[output.html]
+smart-punctuation = true
