@@ -57,3 +57,13 @@ If Emacs displays a lot of warnings in a separate buffer at the lower half of th
 ;; Do not display warnings
 (setq warning-minimum-level :error)
 ```
+
+## Git configuration
+
+If you would like to version your code with git, configure it as follows:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.mail@somewhere.tld"
+git credential-oauth configure # use OAuth when pushing to Github
+```
